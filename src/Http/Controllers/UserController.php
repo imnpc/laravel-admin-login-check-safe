@@ -104,8 +104,8 @@ class UserController extends Controller
         $grid->actions(function (Grid\Displayers\Actions $actions) {
             $actions->disableDelete();
             //添加两个日志链接
-            $actions->add(new LogLoginView());
-            $actions->add(new LogPassView());
+            //$actions->add(new LogLoginView());
+            //$actions->add(new LogPassView());
 
         });
 
